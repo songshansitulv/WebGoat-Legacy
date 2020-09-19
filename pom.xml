@@ -9,8 +9,8 @@
 
     <!-- Shared version number properties -->
     <properties>
-        <org.springframework.version>3.2.4.RELEASE</org.springframework.version>
-        <spring.security.version>3.2.4.RELEASE</spring.security.version>
+        <org.springframework.version>4.3.29.RELEASE</org.springframework.version>
+        <spring.security.version>4.0.1.RELEASE</spring.security.version>
         <tiles.version>2.2.2</tiles.version>
         <!-- If run from Bamboo this will be replaced with the bamboo build number -->
         <build.number>local</build.number>
@@ -229,7 +229,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.0.4</version>
+            <version>2.9.10.6</version>
         </dependency>
 
         <!-- Spring MVC framework -->
